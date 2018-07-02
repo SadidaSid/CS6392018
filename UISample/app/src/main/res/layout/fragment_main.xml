@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+
+    <LinearLayout
+        android:layout_width="124dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/my_image" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/FirstName"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="Sadida"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/LastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Siddiqui" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">>
+
+
+        <TextView
+            android:id="@+id/FirstName"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:text="Sadida"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/FirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sadida"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/FirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sadida"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+</LinearLayout>
