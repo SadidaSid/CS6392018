@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImageViewer</string>
+    <string name="textview_title">Cat!</string>
+</resources>
